@@ -5,7 +5,7 @@ import { Command, File } from "lucide-react";
 import { useQuery } from "convex/react";
 import { useRouter } from "next/navigation";
 import { useUser } from "@clerk/clerk-react";
-import { useSearch } from "@/hooks/user-search";
+import { useSearch } from "@/hooks/use-search";
 
 import {
   CommandDialog,

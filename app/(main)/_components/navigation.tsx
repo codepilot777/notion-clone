@@ -18,7 +18,7 @@ import {
   PopoverContent
 } from "@/components/ui/popover";
 import TrashBox from './trash-box';
-import { useSearch } from '@/hooks/user-search';
+import { useSearch } from '@/hooks/use-search';
 
 const Navigation = () => {
   const search = useSearch();
